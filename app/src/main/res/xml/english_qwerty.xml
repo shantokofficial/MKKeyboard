@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p" android:keyHeight="@dimen/key_height"
+    android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyLabel="q"/><Key android:keyLabel="w"/><Key android:keyLabel="e"/><Key android:keyLabel="r"/><Key android:keyLabel="t"/><Key android:keyLabel="y"/><Key android:keyLabel="u"/><Key android:keyLabel="i"/><Key android:keyLabel="o"/><Key android:keyLabel="p"/>
+    </Row>
+    <Row android:keyWidth="10%p">
+        <Key android:keyLabel="a"/><Key android:keyLabel="s"/><Key android:keyLabel="d"/><Key android:keyLabel="f"/><Key android:keyLabel="g"/><Key android:keyLabel="h"/><Key android:keyLabel="j"/><Key android:keyLabel="k"/><Key android:keyLabel="l"/>
+    </Row>
+    <Row android:keyWidth="10%p">
+        <Key android:codes="-1" android:keyLabel="⇧" android:isModifier="true" android:isSticky="true"/>
+        <Key android:keyLabel="z"/><Key android:keyLabel="x"/><Key android:keyLabel="c"/><Key android:keyLabel="v"/><Key android:keyLabel="b"/><Key android:keyLabel="n"/><Key android:keyLabel="m"/>
+        <Key android:codes="-5" android:keyLabel="⌫" android:isModifier="true" android:isRepeatable="true"/>
+    </Row>
+    <Row android:keyWidth="10%p" android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="20%p" android:codes="-2" android:keyLabel="?123" android:isModifier="true"/>
+        <Key android:keyWidth="15%p" android:codes="-101" android:keyLabel="বাংলা" android:isModifier="true"/>
+        <Key android:keyWidth="40%p" android:codes="32" android:keyLabel="English" android:isModifier="true"/>
+        <Key android:keyWidth="10%p" android:codes="46" android:keyLabel="."/>
+        <Key android:keyWidth="15%p" android:codes="-4" android:keyLabel="↵" android:isModifier="true"/>
+    </Row>
+</Keyboard>
