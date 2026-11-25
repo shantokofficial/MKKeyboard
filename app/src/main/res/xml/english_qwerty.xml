@@ -14,7 +14,7 @@
         <Key android:codes="-5" android:keyLabel="⌫" android:isModifier="true" android:isRepeatable="true"/>
     </Row>
     <Row android:keyWidth="10%p" android:rowEdgeFlags="bottom">
-        <Key android:keyWidth="20%p" android:codes="-2" android:keyLabel="? 123" android:isModifier="true"/>
+        <Key android:keyWidth="20%p" android:codes="-2" android:keyLabel="&#63;123" android:isModifier="true"/>
         <Key android:keyWidth="15%p" android:codes="-101" android:keyLabel="বাংলা" android:isModifier="true"/>
         <Key android:keyWidth="40%p" android:codes="32" android:keyLabel="English" android:isModifier="true"/>
         <Key android:keyWidth="10%p" android:codes="46" android:keyLabel="."/>
