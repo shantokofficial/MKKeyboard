@@ -22,7 +22,7 @@
         <Key android:keyEdgeFlags="right" android:codes="-5" android:keyLabel="⌫" android:isModifier="true" android:isRepeatable="true"/>
     </Row>
     <Row android:keyWidth="10%p" android:rowEdgeFlags="bottom">
-        <Key android:keyWidth="20%p" android:codes="-2" android:keyLabel="?123" android:isModifier="true"/>
+        <Key android:keyWidth="20%p" android:codes="-2" android:keyLabel="? 123" android:isModifier="true"/>
         <Key android:codes="-101" android:keyLabel="🌐" android:isModifier="true"/>
         <Key android:keyWidth="40%p" android:codes="32" android:keyLabel="বাংলা / English" android:isModifier="true"/>
         <Key android:keyLabel="." android:codes="46"/>
